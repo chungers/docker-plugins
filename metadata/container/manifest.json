@@ -11,14 +11,5 @@
         "socket": "metadata.sock"
     },
     "mounts":[
-        {
-            "Options": null,
-            "Type": "bind",
-            "Destination": "/run/docker",
-            "Source": "/run/docker",
-            "Settable": null,
-            "Description": "plugins socket",
-            "Name": ""
-        }
     ]
 }

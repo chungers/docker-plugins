@@ -32,17 +32,7 @@
                 "Devices": null,
                 "Args": null,
                 "Env": [],
-                "Mounts": [
-                    {
-                        "Options": null,
-                        "Type": "bind",
-                        "Destination": "/run/docker",
-                        "Source": "/run/docker",
-                        "Settable": null,
-                        "Description": "plugins socket",
-                        "Name": ""
-                    }
-                ]
+                "Mounts": []
             },
             "Active": true,
             "Tag": "latest",
