@@ -1,0 +1,24 @@
+{
+    "manifestVersion": "v0.1",
+    "description": "metadata driver",
+    "documentation": "https://docs.docker.com/engine/extend/plugins/",
+    "entrypoint": ["/usr/bin/metadata" ],
+    "network": {
+        "type": "host"
+    },
+    "interface" : {
+        "types": ["docker.metadataDriver/1.0"],
+        "socket": "metadata.sock"
+    },
+    "mounts":[
+        {
+            "Options": null,
+            "Type": "bind",
+            "Destination": "/run/docker",
+            "Source": "/run/docker",
+            "Settable": null,
+            "Description": "plugins socket",
+            "Name": ""
+        }
+    ]
+}
